@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Jacquard+12&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Jacquard+12&family=Rubik+Pixels&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Jacquard+24+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Jacquard+24+Charted&display=swap');
+
+.p1{
+    text-decoration: underline;
+    font-family: "Pixelify Sans", sans-serif;
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+    color: #1a1a1a;
+}
+
+.p2{
+    text-decoration: overline;
+    font-family: "Coral Pixels", serif;
+    text-shadow: 1px 1px 4px rgb(0, 0, 255);
+    color: #333333;
+}
+
+.p3{
+    text-decoration: line-through;
+    font-family: "Rubik Pixels", system-ui;
+    text-shadow: 3px 3px 6px rgb(0, 255, 0);
+    color: #444444;
+}
+
+.p4{
+    text-decoration: underline dotted;
+    font-family: "Rubik Pixels", system-ui;
+    text-shadow: 2px 2px 3px rgb(255, 165, 0);
+    color: #555555;
+}
+
+.p5{
+    text-decoration: underline wavy;
+    font-family: "Rubik Pixels", system-ui;
+    text-shadow: 4px 4px 6px rgb(128, 0, 128);
+    color: #666666;
+}
+
+.p6{
+    text-decoration: overline dashed;
+    font-family: "Rubik Pixels", system-ui;
+    text-shadow: 1px 2px 5px rgb(0, 128, 128);
+    color: #777777;
+}
+
+.p7{
+    text-decoration: line-through solid;
+    font-family: "Jersey 15 Charted", sans-serif;
+    text-shadow: 2px 4px 6px rgb(255, 20, 147);
+    color: #888888;
+}
+
+.p8{
+    text-decoration: underline double;
+    font-family: "Jacquard 24 Charted", system-ui;
+    text-shadow: 3px 1px 5px rgb(139, 69, 19);
+    color: #999999;
+}
+
+.p9{
+    text-decoration: none;
+    font-family: "Jacquard 24 Charted", system-ui;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+    color: #aaaaaa;
+}
+
+.p10{
+    text-decoration: underline;
+    font-family: "Jacquard 24 Charted", system-ui;
+    text-shadow: 2px 2px 10px rgb(50, 50, 50);
+    color: #bbbbbb;
+}

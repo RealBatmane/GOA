@@ -1,0 +1,17 @@
+body{
+    background-color: #560505; /* ტანის ფონის ფერი */
+    color: #f4f3f3; /* ტექსტის ფერი */
+    font-size: 18px; /* ტექსტის ზომა */
+    font-family: Arial, Helvetica, sans-serif; /* ტექსტის შრიფტი */
+}
+
+main{
+    width: 590px; /* მთავარი კონტეინერის სიგანე */
+    background-color: white; /* მთავარი კონტეინერის ფონი */
+}
+
+img{
+    max-width: 570px; /* მაქსიმალური სიგანე */
+    height: auto; /* სიმაღლე ავტომატურად ზომის შესაბამისად */
+    display: block; /* სურათი ბლოკის სახით, რომ ახალი ხაზზე იდგეს */
+}
