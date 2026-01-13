@@ -10,8 +10,8 @@ print(a, b, c, d, e)
 
 
 # 3) Tuple da List gansxvaveba
-# Tuple aris UNCHANGEABLE (ar sheidzleba shecvala)
-# List aris CHANGEABLE (shegidzlia elementebis shecvla)
+# Tuple aris IMIUTABLE (ar sheidzleba shecvala)
+# List aris MUTABLE (shegidzlia elementebis shecvla)
 # Tuple iweryeba (), list iweryeba []
 
 
