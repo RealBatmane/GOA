@@ -1,0 +1,12 @@
+.wavy{
+    color: rgb(0,0,0);
+    text-decoration: underline wavy green;
+}
+
+.double-dashed{
+    text-decoration: underline overline dashed #ff0000;
+}
+
+.middle-line{
+    text-decoration: line-through rgb(0,0,255);
+}
