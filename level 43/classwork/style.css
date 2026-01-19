@@ -1,0 +1,10 @@
+li{
+    list-style-image: url(./social_leaderboard_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg);
+    
+    color: red;
+}
+
+
+body{
+    background-color: black;
+}
