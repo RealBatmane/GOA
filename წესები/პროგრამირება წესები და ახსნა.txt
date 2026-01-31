@@ -153,3 +153,204 @@ p {
 }
 
 მეთოდი არის ფუნქცია რომელიც გამოიყენება კონკრეტულ ნივთზე
+
+
+CSS STILEBI ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- --------------------
+---------------------------------------------
+----------------------------------------
+
+🧠 CSS CHEAT-SHEET (EXPLAIN LIKE A HUMAN)
+🔹 RESET / BASE
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+What it is: Reset
+
+Why: Removes browser default spacing
+
+Explain: “So browsers don’t mess up my layout”
+
+🔹 box-sizing: border-box
+
+What: Changes how size is calculated
+
+Why: Padding doesn’t increase element size
+
+Explain: “Keeps layout predictable”
+
+🔹 FONT & BACKGROUND
+font-family
+
+What: Text style
+
+Explain: “Changes how text looks”
+
+background-color
+
+What: Background color
+
+Explain: “Color behind the element”
+
+🔹 DISPLAY (IMPORTANT)
+display: block
+
+What: Takes full width
+
+Explain: “Starts on new line”
+
+display: inline
+
+What: Fits content
+
+Explain: “Sits inside text”
+
+display: flex
+
+What: Flexbox layout
+
+Explain: “Lets me align things easily”
+
+👉 Say this confidently:
+
+“Flexbox is for alignment and layout control.”
+
+🔹 FLEXBOX (THIS IS THE BIG ONE)
+justify-content
+
+What: Horizontal alignment
+
+Works on: MAIN axis
+
+Explain:
+
+center → center left/right
+
+space-between → push items apart
+
+🧠 Memory trick:
+
+“Justify = left/right”
+
+align-items
+
+What: Vertical alignment
+
+Works on: CROSS axis
+
+Explain:
+
+center → center top/bottom
+
+🧠 Memory trick:
+
+“Align = up/down”
+
+gap
+
+What: Space between items
+
+Explain: “Spacing without margin hacks”
+
+🔹 POSITIONING CONTENT
+text-align
+
+What: Aligns text
+
+Explain: “Moves text, not the element”
+
+margin
+
+What: Space outside element
+
+Explain: “Pushes elements away”
+
+margin-top → space above
+
+margin-bottom → space below
+
+🧠 Explain like this:
+
+“Margin controls spacing between elements.”
+
+padding
+
+What: Space inside element
+
+Explain: “Space between content and border”
+
+🔹 IMAGES
+object-fit: cover
+
+What: Crop image to fit
+
+Explain: “Prevents image stretching”
+
+border-radius
+
+What: Rounded corners
+
+Explain: “Softens edges”
+
+🔹 COLORS & TEXT
+color
+
+What: Text color
+
+Explain: “Color of text”
+
+font-weight
+
+What: Boldness
+
+Explain: “How thick text is”
+
+line-height
+
+What: Space between lines
+
+Explain: “Improves readability”
+
+🔹 SHADOWS (YOU JUST USED THIS)
+box-shadow
+
+What: Shadow around element
+
+Explain:
+
+“Gives depth, makes it look lifted”
+
+Example:
+
+box-shadow: 8px 8px 0 black;
+
+
+Right
+
+Down
+
+Sharp
+
+Card effect
+
+🔹 LAYOUT HELPERS
+min-height: 100vh
+
+What: Full screen height
+
+Explain: “Keeps content centered on screen”
+
+align-content
+
+What: Aligns multiple rows
+
+Explain: “Rarely used unless wrapping”
+
+(You can say: “I didn’t need it here”)
+
+🔹 IMAGES + TEXT ROW
+display: flex (avatar row)
+
+Explain:
+
+“Used flex so image and text sit on one line.”
+

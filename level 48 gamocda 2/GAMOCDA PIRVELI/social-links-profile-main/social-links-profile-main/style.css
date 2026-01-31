@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* / HSL- Hue-ფერი Saturation-სიმკვეთრე  lightness-სინათლე /
+
+/ object-fit - akontrolebs tu rogor unda moergos photo da video  /
+
+/ REM- erteuli romelic damokideblua rootis elementebze magalitad root(1 rem =16px)  /
+
+/ font-weight bold - fonts amuqebs /
+
+/ letter spacing aris asoebs shoris dashoreba dziirtadad  viyenebt 1 px /
+
+/ flexdirection-column = gerdzebis cvlileba  justfiy content roca aris vertikaluri column dros aris horizontaluri /
+
+/ margin-bottom-o.6rem = = = = deafult dashoreba  /
+
+/ @media - ekranis zomis mowyobilobis tipze rom gamoviyenot gvadzlevs sxvadasxva stilebs /
+
+/ @media only screen and (max-width:375px) ---- only screen anu mxolod ekranze rom iyos roca ekranis sigrdze 375px <= iqneba mashin telefonis zomaze gadava  */
+
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--off-black);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  background-color: var(--dark-grey);
+  padding: 1.4rem;
+  width: 18rem;
+  border-radius: 0.3rem;
+  text-align: center;
+
+}
+
+.image-para img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+  
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: var(--green);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.button-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.btn {
+  background-color: rgb(88, 86, 86);
+  color: var(--white);
+  padding: 0.6rem 0.8rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--green);
+  color: var(--off-black);
+}
+
+@media only screen and (max-width: 375px) {
+  .conteiner {
+    width: 300px;
+    
+  }
+
+  .job-title {
+    font-size: 0.6rem;
+  }
+}
+
+.image-para{
+    border-radius: 70px;
+}
+
+
+#id{
+    border-radius: 70%;
+}
