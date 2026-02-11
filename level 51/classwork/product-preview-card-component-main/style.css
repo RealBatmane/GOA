@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Green : hsl(158, 36%, 37%);
+     --green: hsl(158, 42%, 18%);
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+
+}
+
+
+
+body{
+    background-color: var(--Cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+
+
+main{
+    background-color: var(--white);
+    border-radius: 15px;
+
+
+
+
+    
+}
+
+

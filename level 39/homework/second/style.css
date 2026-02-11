@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+}
+
+
+#main{
+
+  
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+    padding: 20px;  
+    border: 5px solid brown;
+    
+    
+
+
+
+}
+
+
+#main p{
+    text-align: center;
+    color: gray;
+}
+
+#main input{
+   
+  padding: 20px;
+  width: 100%;
+    
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form button{
+    background-color: green;
+    color: white;
+   width: 80px;
+   height: 30px;
+    text-align: center;
+    border: none;
+    align-self: center;
+
+}
+
+
