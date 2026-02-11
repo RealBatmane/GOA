@@ -15,8 +15,8 @@
 student = {
     "Name": "nikolozi",
     "Hobby": "Football",
-    "Height": 173,
-    "weight": 63
+    "Height": 180,
+    "weight": 70,
 }
 
 name = student.get("Name")
@@ -46,17 +46,17 @@ def show_keys_and_values(dictionary):
 student = {
     "name": "nikolozi",
     "hobby": "football",
-    "height": 173,
-    "weight": 63
+    "height": 180,
+    "weight": 70,
 }
 
 show_keys_and_values(student)
 
 #3
 person = {
-    "name": "Gega",
+    "name": "nikolozi",
     "age": 15,
-    "city": "Chkhorotskhu",
+    "city": "tbilisi",
     "hobby": "football"
 }
 
