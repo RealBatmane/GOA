@@ -27,11 +27,11 @@ div form{
 }
 
 div input{
-    border: 3px solid  rgb(142, 2, 2);
+    border: 3px solid  rgba(224, 107, 94);
     border-radius: 5px;
     background-color: transparent;
     width: 80%;
-    height: 25px;
+    height: 35px;
     
   
 }
@@ -44,4 +44,11 @@ div button{
     height: 28px;
     background-color: rgba(224, 107, 94);
     font-weight: bold;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    background-color: transparent;
+    border:3px solid  rgba(224, 107, 94);
 }
