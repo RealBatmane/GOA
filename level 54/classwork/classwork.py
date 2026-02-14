@@ -16,23 +16,28 @@ wilson = lambda losiento: losiento[::-1]
 print(wilson("python"))
 
 
-# # 4)სიტყვების სიგრძე: გაქვს სია: ["apple", "banana", "cherry", "kiwi"]. დაასორტირე ის სიტყვების სიგრძის მიხედვით.
+# 4)სიტყვების სიგრძე: გაქვს სია: ["apple", "banana", "cherry", "kiwi"]. დაასორტირე ის სიტყვების სიგრძის მიხედვით.
 
-# fruits = ["apple","banana","cherry","kiwi"]
+fruits = ["apple","banana","cherry","kiwi"]
 
-# fruits.sort(key=len)
-# print(fruits)
+fruits.sort(key=len)
+print(fruits)
 
 
-# # 5)ბოლო ასო: იგივე სია დაასორტირე სიტყვების ბოლო ასოს მიხედვით.
+# 5)ბოლო ასო: იგივე სია დაასორტირე სიტყვების ბოლო ასოს მიხედვით.
 
-# fruits.sort(key= lambda fruit:fruit[-1])
-# print(fruits)
+fruits.sort(key= lambda fruit:fruit[-1])
+print(fruits)
 
 
 # 6)Tuples დალაგება: გაქვს პროდუქტების სია ფასებით: [("Milk", 3), ("Bread", 2), ("Cheese", 5)]. დაასორტირე ეს სია ფასის მიხედვით (ზრდადობით).
 
-random =  ("Milk", 3), ("Bread", 2), ("Cheese", 5)
+random = [
+
+    ("Milk", 3), 
+    ("Bread", 2), 
+    ("Cheese", 5),
+]
 
 random.sort(key=lambda p:p[1])
 
